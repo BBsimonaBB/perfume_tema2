@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p01</code>
+    <name>Black Opium</name>
+    <manufacturer>YSL</manufacturer>
+    <price>500.0</price>
+    <discount>0.0</discount>
+    <description>YSL - good</description>
+    <gender>F</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p02</code>
+    <name>Stronger with you</name>
+    <manufacturer>Armani</manufacturer>
+    <price>320.0</price>
+    <discount>15.0</discount>
+    <description>Armani- good</description>
+    <gender>F</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p03</code>
+    <name>Armani Code</name>
+    <manufacturer>Armani</manufacturer>
+    <price>420.0</price>
+    <discount>20.0</discount>
+    <description>Armani- good</description>
+    <gender>M</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p04</code>
+    <name>Joy</name>
+    <manufacturer>Dior</manufacturer>
+    <price>420.0</price>
+    <discount>5.0</discount>
+    <description>Dior - good </description>
+    <gender>F</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p05</code>
+    <name>Scandal</name>
+    <manufacturer>Jean Paul Gaultier</manufacturer>
+    <price>500.0</price>
+    <discount>5.0</discount>
+    <description>JPGaultier - nice</description>
+    <gender>F</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p06</code>
+    <name>Sauvage</name>
+    <manufacturer>Dior</manufacturer>
+    <price>600.0</price>
+    <discount>10.0</discount>
+    <description>Dior - good</description>
+    <gender>M</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p07</code>
+    <name>Miss Dior</name>
+    <manufacturer>Dior</manufacturer>
+    <price>600.0</price>
+    <discount>20.0</discount>
+    <description>Dior- amazing</description>
+    <gender>F</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p08</code>
+    <name>L&gt;homme</name>
+    <manufacturer>Prada</manufacturer>
+    <price>6000.0</price>
+    <discount>0.0</discount>
+    <description>Prada- perfect</description>
+    <gender>M</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p09</code>
+    <name>Eros</name>
+    <manufacturer>Versace</manufacturer>
+    <price>320.0</price>
+    <discount>15.0</discount>
+    <description>Versace - ok</description>
+    <gender>M</gender>
+</perfume>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perfume>
+    <code>p10</code>
+    <name>Daisy</name>
+    <manufacturer>Marc Jacobs</manufacturer>
+    <price>320.0</price>
+    <discount>10.0</discount>
+    <description>MJ- nice</description>
+    <gender>F</gender>
+</perfume>

@@ -1,0 +1,80 @@
+Code: p01
+Name: Black Opium
+Manufacturer: YSL
+Price: 500.0
+Discount: 0.0
+Description: YSL - good
+Gender: F
+
+Code: p02
+Name: Stronger with you
+Manufacturer: Armani
+Price: 320.0
+Discount: 15.0
+Description: Armani- good
+Gender: F
+
+Code: p03
+Name: Armani Code
+Manufacturer: Armani
+Price: 420.0
+Discount: 20.0
+Description: Armani- good
+Gender: M
+
+Code: p04
+Name: Joy
+Manufacturer: Dior
+Price: 420.0
+Discount: 5.0
+Description: Dior - good 
+Gender: F
+
+Code: p05
+Name: Scandal
+Manufacturer: Jean Paul Gaultier
+Price: 500.0
+Discount: 5.0
+Description: JPGaultier - nice
+Gender: F
+
+Code: p06
+Name: Sauvage
+Manufacturer: Dior
+Price: 600.0
+Discount: 10.0
+Description: Dior - good
+Gender: M
+
+Code: p07
+Name: Miss Dior
+Manufacturer: Dior
+Price: 600.0
+Discount: 20.0
+Description: Dior- amazing
+Gender: F
+
+Code: p08
+Name: L>homme
+Manufacturer: Prada
+Price: 6000.0
+Discount: 0.0
+Description: Prada- perfect
+Gender: M
+
+Code: p09
+Name: Eros
+Manufacturer: Versace
+Price: 320.0
+Discount: 15.0
+Description: Versace - ok
+Gender: M
+
+Code: p10
+Name: Daisy
+Manufacturer: Marc Jacobs
+Price: 320.0
+Discount: 10.0
+Description: MJ- nice
+Gender: F
+

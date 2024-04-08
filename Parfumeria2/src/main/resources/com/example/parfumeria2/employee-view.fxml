@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="564.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parfumeria2.View.EmployeeView">
+
+    <VBox alignment="CENTER" prefHeight="564.0" prefWidth="577.0" spacing="10" style="-fx-background-color: #fae8e0;">
+        <children>
+            <HBox prefHeight="44.0" prefWidth="566.0" spacing="10">
+                <Label prefHeight="40.0" prefWidth="200.0" style="-fx-font-weight: bold; -fx-font-size: 15px;" text="   Operation on perfumes" />
+                <ComboBox fx:id="perfumeMenu" prefHeight="30.0" prefWidth="208.0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Filter by price" />
+                            <String fx:value="Filter by brand" />
+                            <String fx:value="Filter by availability" />
+                            <String fx:value="Create perfume" />
+                            <String fx:value="Read after ID" />
+                            <String fx:value="Update after ID" />
+                            <String fx:value="Delete after ID" />
+                            <String fx:value="Search after name" />
+                            <String fx:value="Save perfumes list" />
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+            </HBox>
+            <HBox alignment="CENTER" spacing="5.0">
+                <GridPane hgap="10" prefHeight="105.0" prefWidth="511.0" vgap="10">
+                    <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                    <TextField fx:id="idField" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                    <Label text="Name:" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                    <TextField fx:id="nameField" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                    <Label text="Brand:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                    <TextField fx:id="brandField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <Label text="Price:" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                    <TextField fx:id="priceField" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                    <Label prefHeight="18.0" prefWidth="90.0" text="Discount:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                    <TextField fx:id="discountField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                    <Label text="Description:" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                    <TextField fx:id="descriptionField" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                    <Label text="Stock:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                    <TextField fx:id="stockField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               <Button fx:id="viewNameButton" onAction="#handlerViewName" prefHeight="26.0" prefWidth="130.0" text="View after name" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+               <Button fx:id="viewPriceButton" onAction="#handlerViewPrice" prefHeight="26.0" prefWidth="149.0" text="View after price" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                    <columnConstraints>
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                        <ColumnConstraints />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                    </rowConstraints>
+
+                </GridPane>
+            </HBox>
+            <Button fx:id="nextButton" onAction="#handlerAction" prefHeight="29.0" prefWidth="66.0" text="Next" />
+            <ScrollPane fx:id="scrollPane" prefHeight="314.0" prefWidth="573.0" VBox.vgrow="ALWAYS">
+                <content>
+                    <TableView fx:id="perfumeTable" prefHeight="322.0" prefWidth="565.0">
+                        <columns>
+                            <TableColumn fx:id="perfumeID" text="ID" />
+                            <TableColumn fx:id="perfumeName" text="Name" />
+                            <TableColumn fx:id="perfumeBrand" text="Brand" />
+                            <TableColumn fx:id="perfumePrice" text="Price" />
+                            <TableColumn fx:id="perfumeDiscount" text="Discount" />
+                            <TableColumn fx:id="perfumeDescription" text="Description" />
+                        </columns>
+                    </TableView>
+                </content>
+            </ScrollPane>
+        </children>
+    </VBox>
+
+
+</AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <?import java.lang.*?>
+        <?import javafx.collections.*?>
+        <?import javafx.scene.control.*?>
+        <?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="564.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parfumeria2.View.AdminView">
+
+<VBox alignment="CENTER" prefHeight="564.0" prefWidth="577.0" spacing="10" style="-fx-background-color: #fae8e0;">
+    <children>
+        <HBox prefHeight="44.0" prefWidth="566.0" spacing="10">
+            <Label prefHeight="40.0" prefWidth="200.0" style="-fx-font-weight: bold; -fx-font-size: 15px;" text="   Operation on users" />
+            <ComboBox fx:id="personMenu" prefHeight="30.0" prefWidth="208.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="See all users" />
+                        <String fx:value="Filter by role" />
+                        <String fx:value="Create User" />
+                        <String fx:value="Read after ID" />
+                        <String fx:value="Update after ID" />
+                        <String fx:value="Delete after ID" />
+                    </FXCollections>
+                </items>
+            </ComboBox>
+        </HBox>
+        <HBox alignment="CENTER" spacing="5.0">
+            <GridPane>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="NEVER" />
+                    <ColumnConstraints hgrow="ALWAYS" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints vgrow="NEVER" />
+                    <RowConstraints vgrow="NEVER" />
+                    <RowConstraints vgrow="NEVER" />
+                    <RowConstraints vgrow="NEVER" />
+                    <RowConstraints vgrow="NEVER" />
+                    <RowConstraints vgrow="NEVER" />
+                </rowConstraints>
+                <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <TextField fx:id="idField" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label text="Surname:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                <TextField fx:id="surnameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                <TextField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label text="Role:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                <TextField fx:id="jobField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            </GridPane>
+        </HBox>
+        <Button fx:id="nextButton" prefHeight="29.0" prefWidth="66.0" text="Next" onAction="#handlerAction"/>
+        <ScrollPane fx:id="scrollPane" prefHeight="314.0" prefWidth="573.0" VBox.vgrow="ALWAYS">
+            <content>
+                <TableView fx:id="personTable" prefHeight="322.0" prefWidth="565.0">
+                    <columns>
+                        <TableColumn fx:id="personID" text="ID" />
+                        <TableColumn fx:id="personName" text="Name" />
+                        <TableColumn fx:id="personSurname" text="Surname" />
+                        <TableColumn fx:id="personEmail" text="Email" />
+                        <TableColumn fx:id="personPassword" text="Password" />
+                        <TableColumn fx:id="personJob" text="Job" />
+                    </columns>
+                </TableView>
+            </content>
+        </ScrollPane>
+    </children>
+</VBox>
+
+
+</AnchorPane>
+
+

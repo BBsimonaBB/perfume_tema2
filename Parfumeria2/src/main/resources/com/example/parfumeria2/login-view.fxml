@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="334.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parfumeria2.View.LoginView">
+    <fx:define>
+        <ColumnConstraints fx:id="col1" />
+        <ColumnConstraints fx:id="col2" />
+        <RowConstraints fx:id="row1" />
+        <RowConstraints fx:id="row2" />
+        <RowConstraints fx:id="row3" />
+    </fx:define>
+
+    <VBox alignment="CENTER" prefHeight="333.0" prefWidth="511.0" spacing="10" style="-fx-background-color: #fae8e0;" xmlns:fx="http://javafx.com/fxml/1">
+        <Label prefHeight="90.0" prefWidth="134.0" style="-fx-font-size: 30px; -fx-font-family: sans-serif; -fx-font-style: italic;" text="Welcome!" />
+
+        <GridPane hgap="10" prefHeight="105.0" prefWidth="511.0" vgap="10">
+            <Label style="-fx-font-size: 20px; -fx-font-family: sans-serif;" text="Username:" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label style="-fx-font-size: 20px; -fx-font-family: sans-serif;" text="Passcode:" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="usernameField" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+            <PasswordField fx:id="passwordField" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+      <Button fx:id="loginButton" lineSpacing="5.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="74.0" text="Log In" onAction="#handlerLogin"/>
+    </VBox>
+   <BorderPane prefHeight="200.0" prefWidth="200.0" />
+</AnchorPane>

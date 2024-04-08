@@ -1,0 +1,90 @@
+{
+  "code" : "p01",
+  "name" : "Black Opium",
+  "manufacturer" : "YSL",
+  "price" : 500.0,
+  "discount" : 0.0,
+  "description" : "YSL - good",
+  "gender" : "F"
+}
+ {
+  "code" : "p02",
+  "name" : "Stronger with you",
+  "manufacturer" : "Armani",
+  "price" : 320.0,
+  "discount" : 15.0,
+  "description" : "Armani- good",
+  "gender" : "F"
+}
+ {
+  "code" : "p03",
+  "name" : "Armani Code",
+  "manufacturer" : "Armani",
+  "price" : 420.0,
+  "discount" : 20.0,
+  "description" : "Armani- good",
+  "gender" : "M"
+}
+ {
+  "code" : "p04",
+  "name" : "Joy",
+  "manufacturer" : "Dior",
+  "price" : 420.0,
+  "discount" : 5.0,
+  "description" : "Dior - good ",
+  "gender" : "F"
+}
+ {
+  "code" : "p05",
+  "name" : "Scandal",
+  "manufacturer" : "Jean Paul Gaultier",
+  "price" : 500.0,
+  "discount" : 5.0,
+  "description" : "JPGaultier - nice",
+  "gender" : "F"
+}
+ {
+  "code" : "p06",
+  "name" : "Sauvage",
+  "manufacturer" : "Dior",
+  "price" : 600.0,
+  "discount" : 10.0,
+  "description" : "Dior - good",
+  "gender" : "M"
+}
+ {
+  "code" : "p07",
+  "name" : "Miss Dior",
+  "manufacturer" : "Dior",
+  "price" : 600.0,
+  "discount" : 20.0,
+  "description" : "Dior- amazing",
+  "gender" : "F"
+}
+ {
+  "code" : "p08",
+  "name" : "L>homme",
+  "manufacturer" : "Prada",
+  "price" : 6000.0,
+  "discount" : 0.0,
+  "description" : "Prada- perfect",
+  "gender" : "M"
+}
+ {
+  "code" : "p09",
+  "name" : "Eros",
+  "manufacturer" : "Versace",
+  "price" : 320.0,
+  "discount" : 15.0,
+  "description" : "Versace - ok",
+  "gender" : "M"
+}
+ {
+  "code" : "p10",
+  "name" : "Daisy",
+  "manufacturer" : "Marc Jacobs",
+  "price" : 320.0,
+  "discount" : 10.0,
+  "description" : "MJ- nice",
+  "gender" : "F"
+}

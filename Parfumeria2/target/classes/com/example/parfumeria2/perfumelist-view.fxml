@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<AnchorPane prefHeight="334.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parfumeria2.View.PerfumeListView">
+
+    <VBox alignment="CENTER" prefHeight="333.0" prefWidth="511.0" spacing="10" style="-fx-background-color: #fae8e0;" xmlns:fx="http://javafx.com/fxml/1">
+        <Label prefHeight="90.0" prefWidth="134.0" style="-fx-font-size: 30px; -fx-font-family: sans-serif; -fx-font-style: italic;" text="Welcome!" />
+
+        <Label text="Select file format:" />
+
+        <ChoiceBox fx:id="formatChoiceBox">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="XML" />
+                    <String fx:value="TXT" />
+                    <String fx:value="JSON" />
+                    <String fx:value="CSV" />
+                </FXCollections>
+            </items>
+        </ChoiceBox>
+
+        <Button fx:id="generateButton" text="Generate" onAction="#handlerGenerate"/>
+    </VBox>
+    <BorderPane prefHeight="200.0" prefWidth="200.0" />
+</AnchorPane>
